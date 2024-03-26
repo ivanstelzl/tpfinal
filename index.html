@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Se be delicioso</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Gugi&family=Julius+Sans+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Galada&family=Gugi&family=Julius+Sans+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fenix&family=Galada&family=Gugi&family=Julius+Sans+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a0b9642b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <div class="titulo">
+
+                <img src="logo se be delicioso sin letras.png" alt="logo">
+                <h1><a href="index.html" class="sebe">Se Be delicioso</a></h1>
+
+            </div>
+
+            <table>
+                <tr>
+                    <td class="ini"><a href="index.html" class="b">Inicio</a></td>
+                    <td class="prod"><a href="" id="a">Nuestros productos</a></td>
+                    <td class="ubi"><a href="" id="a">Menúes</a></td>
+                    <td class="contac"><a href="" id="a">Contactanos</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <div class="imagen">
+            <br><br><br>
+                <h1 class="titu">No te preocupes en cocinar, nosotros nos encargamos.</h1>
+            <br><br><br>
+                <h1 class="subt">Hace tu pedido con anticipacion y disfruta de un catering de comida hecho a tu medida.</h1>
+            <br><br><br><br><br><br>
+        </div>
+
+        <br><br>
+
+        
+        <div class="presentacion">
+
+            <div class="textopres">
+
+                <h1>¿Quienes somos?</h1>
+
+                <p> Somos una empresa de catering que trabaja haciendo comida para eventos desde hace 6 años. Todo comenzo com un pequeño emprendimiento y al dia de hoy cada vez mas gente nos eligen a nosotros para acompañarlos.
+                    La confianza de nuestros clientes es muy importante para nosotros, por lo que siempre intentamos dejarlos satisfechos usando productos de primera calidad e innovando dia a dia con nuevos productos.
+                </p>
+
+            </div>
+
+            <div class="imgpres">
+                <img src="que-es-el-catering-en-un-evento.jpg" alt="">
+            </div>
+        
+         </div>
+
+
+<br>
+
+         <div class="servicios">
+            <div class="espaciadoser">
+
+                <h1>Servicios para...</h1>
+
+                <div class="servicios1">
+                    <div class="just">
+                        <button class="caja1" onclick="agregar(sociales)">
+                            <h1 class="eventostit">Eventos sociales<i id="signo" class="fa-solid fa-plus"></i></h1>
+                        </button>
+                        <div id="sociales"></div>
+                    </div>
+                    <div class="just">
+                        <button class="caja2" onclick="agregar1(corporativos)">
+                            <h1 class="eventostit">Eventos corporativos<i id="signo1" class="fa-solid fa-plus"></i></h1>
+                        </button>
+                        <div id="corporativos"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div>
+            <div class="ubicacion">
+                <h2>Única sucursal!</h2>
+                <h4><i class="fa-solid fa-location-dot" id="ubi"></i>Dirección: Ingreniero White 2216, Haedo, Zona Oeste</h4>
+                <div class="mapa">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.8132521228463!2d-58.592963224811484!3d-34.63415925910558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb879b9922437%3A0xa71bc40e9d23b87b!2sIng.%20Guillermo%20White%202216%2C%20B1685BMF%20El%20Palomar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1711013215529!5m2!1ses-419!2sar" width="700" height="400" style="border: 0.2em solid #10403B" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <div>
+                <a href="https://www.instagram.com/se.be_delicioso/" target="_blank" class="log"><h1><div class="logos"><i class="fa-brands fa-instagram"></i></div>Se.be_delicioso</h1></a>
+            </div>
+            <div>
+                <a href="" class="log"><h1><div class="logos"><i class="fa-brands fa-facebook"></i></div>Se.be_deliicioso</h1></a>
+            </div>
+            <div>
+                <a href="" class="log"><h1><div class="logos"><i class="fa-brands fa-whatsapp"></i></div>11-3517-7509</h1></a>
+            </div>
+            <div>
+                <a href="" class="log"><h1><div class="logos"><i class="fa-solid fa-envelope"></i></div>SeBedelicioso@gmail.com</h1></a>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>

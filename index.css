@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+    background-color: #F2E7DC;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#127369;
+    height: 6rem;
+}
+
+.titulo img{
+    height: 70%;
+    margin-left: 0.6rem;
+}
+
+.sebe{
+animation: jackInTheBox;
+animation-duration: 1s;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.2rem;
+}
+
+.titulo:hover{
+    background-color: #10403B;
+    transition: .6s ease all;
+}
+
+nav h1 a{
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+td{
+    border-bottom: solid 0.2rem #127369;
+    animation: backInDown;
+    animation-duration: 1s;
+}
+
+#a{
+    text-decoration: none;
+    margin: 1.2rem;
+    font-size: 1.5rem;
+    color: #BFBFBF;
+    font-family: "KoHo", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.prod:hover, .ubi:hover, .ini:hover, .contac:hover{
+    border-bottom: solid 0.2rem white;
+    transition: .6s ease all;
+
+}
+
+#a:hover{
+    color: white;
+    transition: .6s ease all;
+
+}
+
+.b{
+    color: white;
+    text-decoration: none;
+    margin: 1.2rem;
+    font-size: 1.5rem;
+    font-family: "KoHo", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.ini{
+    border-bottom: solid 0.2rem white;
+}
+
+.b:hover{
+    color: white;
+}
+
+.imagen{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ), url(servicio+catering+chile.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+  }
+
+  .imagen h1, h2{
+    color: white;
+    text-align: center;
+  }
+
+ .titu{
+    font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 0.8rem;
+    padding-top: 1.2rem;
+  }
+
+  .titulo, .titu{
+    border-top: solid white 0.1rem;
+    border-bottom: solid white 0.1rem;
+  }
+  
+  .subt{
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.presentacion{
+    display: flex;
+}
+
+.textopres h1{
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.textopres{
+    width: 35%;
+    margin-left: 2rem;
+}
+
+.textopres p{
+    margin-left: 2rem;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    line-height: 1.7rem;
+}
+
+.imgpres img{
+    margin: 3rem;
+    height: 60vh;
+    width: 55vw;
+}
+
+.servicios{
+    background-color: #BFBFBF;
+    padding-top: 2.2rem;
+    padding-bottom: 5rem;
+}
+
+.espaciadoser h1{
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.espaciadoser{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.servicios1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.just{
+    justify-content: center;
+    width: 45%;
+}
+
+.caja1{
+    width: 100%;
+    height: 20rem;
+    background-image: linear-gradient(
+        rgba(46, 35, 2, 0.795),
+        rgba(94, 61, 13, 0.473)
+    ), url(descripcion-de-una-empresa-de-catering.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #BFBFBF solid 0.2rem;
+}
+
+.caja2{
+    width: 100%;
+    height: 20rem;
+    background-image: linear-gradient(
+        rgba(4, 26, 44, 0.527),
+        rgba(11, 22, 58, 0.658)
+    ), url(sobrevivircatering-t.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #BFBFBF solid 0.2rem;
+}
+
+.caja1:hover{
+    background-image: linear-gradient(
+        rgba(109, 83, 7, 0.644),
+        rgba(126, 80, 13, 0.541)
+    ), url(descripcion-de-una-empresa-de-catering.jpg);
+    border: white solid 0.2rem;
+    transition: .9s ease all;
+    .eventostit{
+        transition: .6s ease all;
+        font-size: 1.7rem;
+        font-family: "Castoro Titling", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        padding: 2rem;
+        background-image: linear-gradient(
+            rgba(187, 147, 29, 0.562),
+            rgba(167, 112, 31, 0.596)
+        );
+    }
+}
+
+.caja2:hover{
+    background-image: linear-gradient(
+        rgba(13, 79, 133, 0.63),
+        rgba(21, 37, 92, 0.582)
+    ), url(sobrevivircatering-t.jpg.webp);
+    border: white solid 0.2rem;
+    transition: .9s ease all;
+    .eventostit{
+        transition: .6s ease all;
+        font-size: 1.7rem;
+        font-family: "Castoro Titling", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        padding: 2rem;
+        background-image: linear-gradient(
+            rgba(12, 107, 185, 0.63),
+            rgba(16, 48, 151, 0.438)
+        );
+    }
+}
+
+.eventostit{
+    font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#signo{
+    border-radius: 100%;
+    background-color: #E8E172;
+    padding: 0.2rem;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+}
+
+#signo1{
+    border-radius: 100%;
+    background-color: #BEF8FF;
+    padding: 0.2rem;
+    color: black;
+    font-size: 1rem;
+    margin-left: 0.3rem;
+}
+
+
+
+
+.footer{
+    height: 14rem;
+    background-color: #127369;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h1, .footer a{
+    color: white;
+    font-size: 0.9rem;
+    margin: 5rem;
+    font-family: "KoHo", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer div{
+    display: inline;
+}
+
+.logos{
+    margin: 0.4rem;
+    border-radius: 100%;
+    background-color: #10403B;
+    padding: 0.9rem;
+    text-align: center;
+}
+
+.log:hover{
+    .logos{
+        background-color: #8AA6A3;
+        animation: fadeIn;
+        animation-duration: 0.4s;
+    }
+    }
+
+
+
+
+.masinfo{
+    background-color: #8AA6A3;
+    color: black;
+    padding: 1rem;
+    border-bottom: solid 0.1rem white;
+    border-right: solid 0.1rem white;
+    border-left: solid 0.1rem white;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* animation: slideInDown; */
+    animation: fadeInDown;
+    animation-duration: 1s;
+}
+
+.infosoc{
+    text-align: center;
+}
+
+.menosinfo{
+    text-align: center;
+    background-color: darkslategray;
+    color: #BFBFBF;
+    border-radius: 1%;
+    border: solid 0.1rem #127369;
+    margin-top: 1.5rem;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.3rem;
+}
+
+.menosinfo:hover{
+    background-color: #127369;
+    color: white;
+    border: solid 0.1rem white;
+}
+
+
+.bot{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.ubicacion{
+    margin: 4rem;
+}
+
+.ubicacion h2{
+    font-family: "Castoro Titling", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    border-bottom: #10403B solid 0.1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+#ubi{
+    color: red;
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+.ubicacion h4{
+    font-size: 1.5rem;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.map:hover{
+    width: 800px;
+    height: 500px;
+    animation: pulse;
+    animation-duration: 1s;
+    display: flex;
+    justify-content: center;
+    border: #BEF8FF solid 2rem;
+}
