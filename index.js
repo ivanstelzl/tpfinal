@@ -1,6 +1,6 @@
 var soc = `
 <div class="masinfo">
-    <h4 class="infosoc">Queremos un catering acordes a tus Cumpleaños, bautismos, casamientos, peloteros, etc</h4>
+    <h4 class="infosoc">Menués de comida acorde a cumpleaños, bautismos, casamientos, peloteros, fiestas, reuniones, etc</h4>
     <div class="bot">
         <button onclick="eliminar(sociales)" class="menosinfo">Mostrar menos  <i class="fa-solid fa-arrow-up"></i></button>
     </div>
@@ -8,7 +8,7 @@ var soc = `
 `
 var corp = `
 <div class="masinfo">
-    <h4 class="infosoc">Queremos un catering acordes a tus Cumpleaños, bautismos, casamientos, peloteros, etc</h4>
+    <h4 class="infosoc">Un tipo de catering acorde a eventos formales</h4>
     <div class="bot">
         <button onclick="eliminar1(corporativos)" class="menosinfo">Mostrar menos  <i class="fa-solid fa-arrow-up"></i></button>
     </div>
