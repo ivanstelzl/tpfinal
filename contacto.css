@@ -511,12 +511,13 @@ nav{
 
     /*  */
 
+  
     .footer h1, .footer a{
-        font-size: 0.5rem;
+        font-size: 0.7rem;
     }
 
     .footer h1{
-        width: 50%;
+        width: 100%;
     }
 
 }
