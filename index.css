@@ -578,6 +578,10 @@ td{
         margin-left: 0.3rem;
         width: 13vw;
     }
+
+    nav{
+        height: 4.5rem;
+    }
     
     .sebe{
         font-size: 0.7rem;
@@ -585,14 +589,14 @@ td{
     }
 
     .b{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         margin: 0.2rem;
         padding: 0.1rem;
 
     }
 
     #a{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         margin: 0;
         padding: 0.1rem;
     }
