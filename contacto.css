@@ -434,29 +434,36 @@ td{
     
     .titulo img{
         height: 50%;
+        width: 40px;
         margin-left: 0.3rem;
-        width: 13vw;
-    }
-    
+        margin-right: 0.3rem;
+}
+
+nav{
+    height: 5rem;
+}
+
     .sebe{
-        font-size: 0.7rem;
-        margin: 0.4rem;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+
+    .titulo{
+        margin-right: 0;
     }
 
     .b{
         font-size: 0.6rem;
-        margin: 0.2rem;
-        padding: 0.1rem;
-    }
+        margin: 0.1rem;
+        padding: 0.2rem;
 
-    nav{
-        height: 4.5rem;
     }
 
     #a{
         font-size: 0.6rem;
-        margin: 0;
-        padding: 0.1rem;
+        margin: 0.1rem;
+        padding: 0.2rem;
     }
 
     /*  */

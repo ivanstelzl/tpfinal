@@ -749,17 +749,17 @@ li{
 
 
 
-@media screen and (max-width: 530px){
+@media screen and (max-width: 591px){
     
     .titulo img{
-        height: 36%;
-        width: 20%;
+        height: 50%;
+        width: 40px;
         margin-left: 0.3rem;
         margin-right: 0.3rem;
 }
 
 nav{
-    height: 4.5rem;
+    height: 5rem;
 }
 
     .sebe{
