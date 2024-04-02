@@ -124,7 +124,7 @@ td{
     border-top: solid white 0.1rem;
     border-bottom: solid white 0.1rem;
   }
-  
+
   .subt{
     font-family: "Fenix", serif;
     font-weight: 400;
@@ -343,7 +343,6 @@ td{
     font-family: "Fenix", serif;
     font-weight: 400;
     font-style: normal;
-    /* animation: slideInDown; */
     animation: fadeInDown;
     animation-duration: 1s;
 }
@@ -422,4 +421,237 @@ td{
     display: flex;
     justify-content: center;
     border: #BEF8FF solid 2rem;
+}
+
+
+
+
+
+@media screen and (max-width: 1044px){
+
+    .sebe{
+        font-size: 1.6rem;
+    }
+
+    .b{
+        font-size: 1.3rem;
+        margin: 0.4rem;
+        padding: 0.2rem;
+
+    }
+
+    #a{
+        font-size: 1.3rem;
+        margin: 0.4rem;
+        padding: 0.2rem;
+    }
+
+    /*  */
+
+    .presentacion{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        
+    }
+
+    
+    .imgpres{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .textopres{
+        width: 95%;
+        margin: 0;
+    }
+    
+    .textopres h1{
+        margin-left: 2rem;
+        margin-top: 3rem;
+        font-family: "Fenix", serif;
+        font-weight: 400;
+        font-style: normal;
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .textopres p{
+        font-family: "Fenix", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: large;
+        line-height: 1.7rem;
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    .imgpres img{
+        margin: 10px;
+        width: 90%;
+        height: 300px;
+    }
+
+/*  */
+
+.caja1:hover{
+    .eventostit{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+.caja2:hover{
+    .eventostit{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+
+/*  */
+    .footer{
+        height: 20rem;
+        background-color: #127369;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    .footer h1, .footer a{
+        color: white;
+        font-size: 1rem;
+        margin: 0;
+        font-family: "KoHo", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    .footer a{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h1{
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .footer i{
+        text-align: center;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        text-align: center;
+    }
+
+    .logos{
+        margin: 0;
+        background-color: #10403B;
+        padding: 0;
+        border-radius: 0;
+        border: solid white 0.1rem;
+    }
+
+    .footer div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0.5rem;
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 591px){
+    
+    .titulo img{
+        height: 50%;
+        margin-left: 0.3rem;
+        width: 13vw;
+    }
+    
+    .sebe{
+        font-size: 0.7rem;
+        margin: 0.4rem;
+    }
+
+    .b{
+        font-size: 0.5rem;
+        margin: 0.2rem;
+        padding: 0.1rem;
+
+    }
+
+    #a{
+        font-size: 0.5rem;
+        margin: 0;
+        padding: 0.1rem;
+    }
+
+    .textopres{
+        width: 100%;
+    }
+
+    .textopres p{
+        margin: 0.7rem;
+        width: 95%;
+    }
+
+    .textopres h1{
+        width: 70%;
+    }
+
+    .imgpres img{
+        height: 30vh;
+    }
+
+    .presentacion{
+        grid-template-columns: 1fr;
+    }
+
+    .espaciadoser{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .footer h1, .footer a{
+        font-size: 0.5rem;
+    }
+
+    .footer h1{
+        width: 50%;
+    }
+
+    .just{
+        width: 50%;
+    }
+
+    .caja1:hover{
+        .eventostit{
+            width: 30%;
+            font-size: 0.7rem;
+        }
+    }
+    .caja2:hover{
+        .eventostit{
+            width: 30%;
+            font-size: 0.7rem;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+        }
+        .signo2{
+            font-size: smaller;
+        }
+    }
 }

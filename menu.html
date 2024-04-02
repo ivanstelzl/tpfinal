@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menúes</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Gugi&family=Julius+Sans+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Galada&family=Gugi&family=Julius+Sans+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fenix&family=Galada&family=Gugi&family=Julius+Sans+One&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&family=Questrial&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a0b9642b1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    
+    <header>
+
+        <nav>
+
+            <div class="titulo">
+
+                <img src="logosebedelicioso.png" alt="logo">
+                <h1><a href="index.html" class="sebe">Se Be delicioso</a></h1>
+
+            </div>
+
+        
+                <table>
+                    <tr>
+                        <td class="ini"><a href="index.html" id="a">Inicio</a></td>
+                        <td class="prod"><a href="productos.html" id="a">Nuestros productos</a></td>
+                        <td class="ubi"><a href="menu.html" class="b">Menúes</a></td>
+                        <td class="contac"><a href="contacto.html" id="a">Contactanos</a></td>
+                    </tr>
+                </table>
+            
+        </nav>
+    </header>
+
+<main>
+
+
+
+    <div class="menus">
+
+        <div class="men1">
+            <div class="textoo">
+                <h1 class="tex">Menú 1</h1>
+                <p>
+                    <ul>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                    </ul>
+                </p>
+            
+                <div class="flexx">
+                        <div>
+                            <h1 class="precio">$20000</h1>
+                        </div>
+                        
+                        <div>
+                            <button class="encargar" onclick="AñadirFormulario()">
+                                <a href="#formulario"><h3>¡Encargar ahora!</h3><h1><i class="fa-solid fa-arrow-right"></i></h1></a>
+                            </button>
+                        </div>
+                </div>
+            </div>
+
+            <div class="imgss">
+                <img src="catering-2-1.jpg" alt="">
+            </div>
+        </div>
+
+<!--  -->
+
+
+        <form action="" class="formulario_inactivo" id="formulario">
+
+            <h3 class="rellene">Llene el siguiente formulario y lo contactaremos para confirmar su pedido</h3>
+            
+            <div class="formulario_grupo" id="grupo_nombre">
+                <label for="nombre" class="formulario_label">Nombre</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="nombre" id="nombre">
+                    <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario_input_error">El nombre debe tener entre 1 y 40 caracteres y no debe contener numeros o signos</p>
+            </div>
+
+            <!--  -->
+
+            <div class="formulario_grupo" id="grupo_mail">
+                <label for="mail" class="formulario_label">Correo electronico</label>
+                <div class="formulario_grupo_input">
+                    <input type="email" class="formulario_input" name="mail" id="mail">
+                    <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario_input_error">El correo solo puede contener letras, numeros, puntos, guiones y guin bajo</p>
+            </div>
+
+            <!--  -->
+            
+            <div class="formulario_grupo" id="grupo_telefono">
+                <label for="telefono" class="formulario_label">Telefono</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="telefono" id="telefono">
+                    <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario_input_error">El telefono solo puede contener numeros y el maximo son 14 digitos</p>
+            </div>
+
+            <!--  -->
+
+            <div class="formulario_grupo" id="grupo_ubicacion">
+                <label for="ubicacion" class="formulario_label">Localidad a realizar el evento</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="ubicacion" id="ubicacion">
+                    <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario_input_error">Solo se permiten letras y un maximo de 40 caracteres</p>
+            </div>
+
+            <!--  -->
+
+            <div class="formulario_grupo" id="grupo_fecha">
+                <label for="fecha" class="formulario_label">Fecha del evento</label>
+                <div class="formulario_grupo_input">
+                    <input type="date" class="formulario_input" name="fecha" id="fecha" min="2024/04/27" required>
+                    <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                </div>
+            </div>
+
+            <!--  -->
+
+            <div class="formulario_grupo" id="grupo_pago">
+                <label for="Pago" class="formulario_label">Metodo de pago</label>
+                <div class="formulario_grupo_input">
+                    <select type="text" class="formulario_input" name="pago" id="ubicacion">
+                        <option value="efectivo">Efectivo</option>
+                        <option value="tarjeta">Tarjeta</option>
+                        <option value="virtual">Billetera virtual</option>
+                    </select>
+                    <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                </div>
+                <p class="formulario_input_error">Seleccione una opcion</p>
+            </div>
+
+
+            <div class="formulario_mensaje" id="formulario_mensaje">
+                <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error:</b> Por favor rellena el cuestionario correctamente</p>
+            </div>
+
+
+            <div class="formulario_grupo formulario_grupo_btn_enviar">
+                <button type="submit" class="formulario_btn">Enviar</button>
+                <p class="formulario_mensaje_exito" id="formulario_mensaje_exito">Formulario enviado exitosamente!</p>
+            </div>
+
+        </form>
+
+
+
+<!--  -->
+
+        <br><hr><br>
+
+        <div class="men2">
+
+            <div class="imgss">
+                <img src="Catering3.jpg" alt="">
+            </div>
+
+            <div class="textoo">
+                <h1 class="tex">Menú 2</h1>
+                <p>
+                    <ul>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                        <li>10 fosforitos</li>
+                    </ul>
+                </p>
+                <div class="flexx">
+                    <div>
+                        <h1 class="precio">$20000</h1>
+                    </div>
+
+                    <div>
+                        <button class="encargar" onclick="AñadirFormulario()">
+                            <a href="#formulario"><h3>¡Encargar ahora!</h3><h1><i class="fa-solid fa-arrow-right"></i></h1></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <br><hr><br>
+
+
+        <h1 id="tit">Armá tu propio menú!</h1>
+
+        <form action="" id="prods">
+            <div id="formu">
+                <table id="tabla">
+                    <label for="" >
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio x unidad</th>
+                            <th>Cantidad a comprar</th>
+                            <th>Total x producto</th>
+                        </tr>
+        
+                        <tr>
+                            <td class="col">Fosforitos JyQ</td>
+                            <td class="col">$500</td>
+                            <td class="col"><input type="number" name="fosforitos" id="fosforitos" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input id="precio1" value="0" type="number" name=""></td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="col">Sandwich de bondiola</td>
+                            <td class="col">$600</td>
+                            <td class="col"><input type="number" id="bondiola" name="bondiola" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio2" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Empanadas</td>
+                            <td class="col">$400</td>
+                            <td class="col"><input type="number" name="empanadas" id="empanadas" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio3" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Arabes</td>
+                            <td class="col">$450</td>
+                            <td class="col"><input type="number" name="arabes" id="arabes" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio4" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Canastitas</td>
+                            <td class="col">$380</td>
+                            <td class="col"><input type="number" name="canastitas" id="canastitas" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio5" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Mini-Hamburguesas</td>
+                            <td class="col">$530</td>
+                            <td class="col"><input type="number" name="hamburguesas" id="hamburguesas" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio6" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Pizzetas</td>
+                            <td class="col">$420</td>
+                            <td class="col"><input type="number" name="pizzetas" id="pizzetas" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio7" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Falafel</td>
+                            <td class="col">$340</td>
+                            <td class="col"><input type="number" name="falafel" id="falafel" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio8" type="number" name=""></td>
+                        </tr>
+
+                        <tr>
+                            <td class="col">Tarteletas</td>
+                            <td class="col">$400</td>
+                            <td class="col"><input type="number" name="tarteletas" id="tarteletas" min="0"></td>
+                            <td class="col"><strong>$</strong>  <input value="0" id="precio9" type="number" name=""></td>
+                        </tr>
+                
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td class="totaltex"><p>TOTAL =  <strong>$</strong></p></td>
+                            <td>
+                                <input type="number" name="" id="total">
+                            </td>
+                        </tr>                    
+                    </label>
+                </table>
+            </div>
+        </form>
+
+
+            <form action="" id="formulario2">
+
+                <div class="formulario_grupo" id="grupoo_nombre">
+                    <label for="nombre" class="formulario_label">Nombre</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" class="formulario_input" name="nombre" id="nombre">
+                        <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_input_error">El nombre debe tener entre 1 y 40 caracteres y no debe contener numeros o signos</p>
+                </div>
+
+                <!--  -->
+            
+                <div class="formulario_grupo" id="grupoo_mail">
+                    <label for="mail" class="formulario_label">Correo electronico</label>
+                    <div class="formulario_grupo_input">
+                        <input type="email" class="formulario_input" name="mail" >
+                        <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_input_error">El correo solo puede contener letras, numeros, puntos, guiones y guin bajo</p>
+                </div>
+
+                <!--  -->
+                
+                <div class="formulario_grupo" id="grupoo_telefono">
+                    <label for="telefono" class="formulario_label">Telefono</label>
+                        <div class="formulario_grupo_input">
+                            <input type="text" class="formulario_input" name="telefono">
+                            <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                        </div>
+                        <p class="formulario_input_error">El telefono solo puede contener numeros y el maximo son 14 digitos</p>
+                </div>
+                
+
+
+                <div class="formulario_grupo" id="grupoo_ubicacion">
+                    <label for="ubicacion" class="formulario_label">Localidad a realizar el evento</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" class="formulario_input" name="ubicacion">
+                        <i class="formulario_validacion_estado fa-solid fa-circle-xmark"></i>
+                    </div>
+                    <p class="formulario_input_error">Solo se permiten letras y un maximo de 40 caracteres</p>
+                </div>
+            
+
+                <div class="formulario_mensaje" id="formulario_mensaje2">
+                    <p><i class="fa-solid fa-triangle-exclamation"></i><b>Error:</b> Por favor rellena el cuestionario correctamente</p>
+                </div>
+
+
+                <div id="boton2" class="formulario_grupo formulario_grupo_btn_enviar">
+                    <button type="submit" class="formulario_btn">Enviar</button>
+                    <p class="formulario_mensaje_exito" id="formulario_mensaje_exito2">Pedido registrado exitosamente! <br>
+                        Estaremos en contacto</p>
+                </div>
+            </form>
+
+        
+    </div>
+
+
+
+
+    <div class="footer">
+        <div>
+            <a href="https://www.instagram.com/se.be_delicioso/" target="_blank"><h1><div class="logos"><i class="fa-brands fa-instagram"></i></div>Se.be_delicioso</h1></a>
+        </div>
+        <div>
+            <h1><div class="logos"><i class="fa-brands fa-facebook"></i></div>Se.be_deliicioso</h1>
+        </div>
+        <div>
+            <a href=""><h1><div class="logos"><i class="fa-brands fa-whatsapp"></i></div>11-3517-7509</h1></a>
+        </div>
+        <div>
+            <a href="" class="log"><h1><div class="logos"><i class="fa-solid fa-envelope"></i></div>SeBedelicioso@gmail.com</h1></a>
+        </div>
+</main>
+
+
+<script src="menu.js"></script>
+
+
+</body>
+</html>

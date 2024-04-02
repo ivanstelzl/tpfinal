@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+    background-color: #F3F3EB;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:#127369;
+    height: 6rem;
+}
+
+.titulo img{
+    height: 70%;
+    margin-left: 0.6rem;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.2rem;
+}
+
+.titulo:hover{
+    background-color: #10403B;
+}
+
+nav h1 a{
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+td{
+    border-bottom: solid 0.2rem #127369;
+}
+
+#a{
+    text-decoration: none;
+    margin: 1.2rem;
+    font-size: 1.5rem;
+    color: #BFBFBF;
+    font-family: "KoHo", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.prod:hover, .ubi:hover, .ini:hover, .contac:hover{
+    border-bottom: solid 0.2rem white;
+    transition: .6s ease all;
+}
+
+#a:hover{
+    color: white;
+    transition: .6s ease all;
+}
+
+.b{
+    color: white;
+    text-decoration: none;
+    margin: 1.2rem;
+    font-size: 1.5rem;
+    font-family: "KoHo", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.contac{
+    border-bottom: solid 0.2rem white;
+}
+
+.b:hover{
+    color: white;
+    transition: .6s ease all;
+}
+
+/*  */
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*  */
+
+
+.info{
+    margin-top: 2.5rem;
+    margin-left: 2.6rem;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.4rem;
+}
+
+.info a{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 2.3rem;
+}
+
+.info h3{
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+}
+
+.infotex{
+    margin-left: 2rem;
+}
+
+.info .logos{
+    background-color: #127369;
+    padding: 1.4rem;
+}
+
+
+
+/*  */
+
+
+*{
+    box-sizing: border-box;
+}
+
+.rellene{
+    font-size: 1.3rem;
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.formulario_label{
+    display: block;
+    font-weight: 700;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formulario_grupo_input{
+    position: relative;
+}
+
+.formulario_input{
+    width: 100%;
+    background: #fff;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 45px 0 10px;
+    transition: .3s ease all;
+}
+
+.formulario_input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.formulario_input_error{
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+.formulario_input_error_activo{
+    display: block;
+}
+
+.formulario_validacion_estado{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+/* .formulario_mensaje,
+.formulario_grupo_btn_enviar,
+.formulario_mensaje_exito{
+    
+} */
+
+.formulario_mensaje{
+    height: 45px;
+    line-height: 45px;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    margin: 13px;
+    display: none;
+}
+
+.formulario_mensaje_activo{
+    /* height: 45px;
+    line-height: 45px;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    margin: 13px; */
+    display: block;
+}
+
+.formulario_mensaje p{
+    margin: 0;
+}
+
+.formulario_grupo_btn_enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.formulario_btn{
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .1s ease all;
+}
+
+.formulario_btn:hover{
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+    transition: .1s ease all;
+}
+
+.formulario_mensaje_exito{
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+.formulario_mensaje_exito_activo{
+    display: block;
+    font-size: 14px;
+    color: #119200;
+}
+
+
+/* validacion */
+
+.formulario_grupo_correcto .formulario_validacion_estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario_grupo_incorrecto .formulario_label{
+    color: #bb2929;
+}
+
+.formulario_grupo_incorrecto .formulario_validacion_estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario_grupo_incorrecto .formulario_input{
+    border: 3px solid #bb2929;
+}
+
+#caja{
+    height: 80px;
+}
+
+
+
+
+/*  */
+
+
+.footer{
+    height: 14rem;
+    background-color: #127369;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h1, .footer a{
+    color: white;
+    font-size: 0.9rem;
+    margin: 5rem;
+    font-family: "KoHo", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.footer div{
+    display: inline;
+}
+
+.logos{
+    margin: 0.4rem;
+    border-radius: 100%;
+    background-color: #10403B;
+    padding: 0.9rem;
+    text-align: center;
+}
+
+.logos:hover{
+    background-color: #8AA6A3;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1044px){
+
+    .sebe{
+        font-size: 1.6rem;
+    }
+
+    .b{
+        font-size: 1.3rem;
+        margin: 0.4rem;
+        padding: 0.2rem;
+
+    }
+
+    #a{
+        font-size: 1.3rem;
+        margin: 0.4rem;
+        padding: 0.2rem;
+    }
+    /*  */
+
+    .grid{
+        display: block;
+    }
+
+
+    /*  */
+    .footer{
+        height: 20rem;
+        background-color: #127369;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+    }
+
+    .footer h1, .footer a{
+        color: white;
+        font-size: 1rem;
+        margin: 0;
+        font-family: "KoHo", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-decoration: none;
+        text-align: center;
+        
+    }
+
+    .footer a{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer h1{
+        width: 30%;
+        height: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .footer i{
+        text-align: center;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        text-align: center;
+    }
+
+    .logos{
+        margin: 0;
+        background-color: #10403B;
+        padding: 0;
+        border-radius: 0;
+        border: solid white 0.1rem;
+    }
+
+    .footer div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 0.5rem;
+        width: 100%;
+        height: fit-content;
+    }
+
+}
+
+@media screen and (max-width: 591px){
+    
+    .titulo img{
+        height: 50%;
+        margin-left: 0.3rem;
+        width: 13vw;
+    }
+    
+    .sebe{
+        font-size: 0.7rem;
+        margin: 0.4rem;
+    }
+
+    .b{
+        font-size: 0.5rem;
+        margin: 0.2rem;
+        padding: 0.1rem;
+
+    }
+
+    #a{
+        font-size: 0.5rem;
+        margin: 0;
+        padding: 0.1rem;
+    }
+
+    /*  */
+
+    .info a{
+        display: flex;
+        align-items: center;
+        font-size: 1rem;
+        margin: 0.5rem;
+    }
+
+    
+.info{
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    font-family: "Fenix", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.info h3{
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.infotex{
+    margin-left: 1rem;
+}
+
+    /*  */
+
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        margin: auto;
+        padding: 25px;
+        font-family: "Fenix", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    /*  */
+
+    .footer h1, .footer a{
+        font-size: 0.5rem;
+    }
+
+    .footer h1{
+        width: 50%;
+    }
+
+}
